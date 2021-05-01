@@ -1,5 +1,5 @@
 # Quantifying the structural uncertainty of the aerosol mixing state representation in a modal model
-[![DOI](https://zenodo.org/badge/363034210.svg)](https://zenodo.org/badge/latestdoi/363034210)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.4731385-blue)](https://doi.org/10.5281/zenodo.4731385)
 
 ## Introduction
 
