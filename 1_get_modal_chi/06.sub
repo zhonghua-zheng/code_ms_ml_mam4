@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#BATCH -p d
+#SBATCH --job-name=zzheng25
+#SBATCH --time=12:00:00
+#SBATCH --mem-per-cpu=32G
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=END
+#SBATCH --mail-user=zzheng25@illinois.edu
+#SBATCH -o log-01
+#SBATCH -e error-01
+
+### Run the executable
+source /data/keeling/a/zzheng25/miniconda3/bin/activate
+conda activate partmc
+python cal_ms.py "2011" "06" "06"
