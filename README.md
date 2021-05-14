@@ -1,4 +1,5 @@
 # Quantifying the structural uncertainty of the aerosol mixing state representation in a modal model
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.4731385-blue)](https://doi.org/10.5281/zenodo.4731385)
 
 ## Introduction
 
@@ -38,7 +39,7 @@ conda activate partmc_mam4
 | get the particle-resolved $\chi$        | 0_get_particle_chi | Tab 3                    |
 | calculate the $\chi$ from a modal model | 1_get_modal_chi    |                          |
 | processing the data                     | 2_preprocessing    |                          |
-| data analysis                           | 3_analysis         | Fig 2 - Fig 5, Fig S1-S2 |
+| data analysis                           | 3_analysis         | Fig 2 - Fig 5, Fig S1 - Fig S2 |
 
 ### Data
 
